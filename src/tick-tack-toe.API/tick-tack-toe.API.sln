@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tick-tack-toe.API", "tick-tack-toe.API.csproj", "{7AB5A959-EEDD-467A-AFB2-61452F65EADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tick-tack-toe.API", "tick-tack-toe.API.csproj", "{7AB5A959-EEDD-467A-AFB2-61452F65EADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tick-tack-toe.Models", "..\tick-tack-toe.Models\tick-tack-toe.Models.csproj", "{BB079B10-053C-48D3-86E8-5CD58C63ECEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tick-tack-toe.Database", "..\tick-tack-toe.Database\tick-tack-toe.Database.csproj", "{CCE22E3C-67BE-4EF8-92DA-598A6E148A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7AB5A959-EEDD-467A-AFB2-61452F65EADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AB5A959-EEDD-467A-AFB2-61452F65EADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AB5A959-EEDD-467A-AFB2-61452F65EADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB079B10-053C-48D3-86E8-5CD58C63ECEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB079B10-053C-48D3-86E8-5CD58C63ECEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB079B10-053C-48D3-86E8-5CD58C63ECEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB079B10-053C-48D3-86E8-5CD58C63ECEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE22E3C-67BE-4EF8-92DA-598A6E148A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE22E3C-67BE-4EF8-92DA-598A6E148A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE22E3C-67BE-4EF8-92DA-598A6E148A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE22E3C-67BE-4EF8-92DA-598A6E148A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
