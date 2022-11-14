@@ -19,12 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\tick-tack-toe.Database\tick-tack-toe.Database.csproj" />
+    <ProjectReference Include="..\tick-tack-toe.Models\tick-tack-toe.Models.csproj" />
   </ItemGroup>
 
 </Project>
