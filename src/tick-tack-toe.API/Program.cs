@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using tick_tack_toe.API.Services;
+using tick_tack_toe.API.Services.Base;
 using tick_tack_toe.Database;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +8,7 @@ var configuration = builder.Configuration;
 
 builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(configuration.GetConnectionString("DbContext")));
 
+builder.Services.AddScoped<IHealthCheckService, HealthCheckService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
